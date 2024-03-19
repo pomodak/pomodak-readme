@@ -3,11 +3,11 @@
 <div style="display:flex; flex-flow: row wrap; justify-content:center; gap:6px;">
 </div>
 
-<div style="display:flex; flex-flow: row wrap; align-items: end;justify-content:center; gap:4px;">
-<img src="https://d2quahb2ygxiv.cloudfront.net/c6b6dc92b5b1ca2b81459.png" alt="main_1 img" class="mobile-hide" style="width:full; max-width:200px; height:auto;  max-height:200px;"/>
-<img src="./images/1.png" alt="main_1 img"  style="width:full; max-width:280px; height:auto;"/>
-<img src="https://d2quahb2ygxiv.cloudfront.net/6b6dc92b5b1ca2b81459a.png" alt="main_1 img" class="mobile-hide" style="width:full; max-width:200px; height:auto; max-height:200px;" />
-</div>
+<p align="end" width="100%">
+<img src="https://d2quahb2ygxiv.cloudfront.net/c6b6dc92b5b1ca2b81459.png" alt="main_1 img" width="30%"/>
+<img src="./images/1.png" alt="main_1 img" width="30%"/>
+<img src="https://d2quahb2ygxiv.cloudfront.net/6b6dc92b5b1ca2b81459a.png" alt="main_1 img" width="30%" />
+</p>
 
 <br>
 
@@ -88,11 +88,3 @@
 #### 노혜지
 
 > 회고
-
-<style>
-@media (max-width: 768px) {
-  .mobile-hide {
-    display: none;
-  }
-}
-</style>
