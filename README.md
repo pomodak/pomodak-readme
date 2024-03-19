@@ -8,17 +8,55 @@
 
 <br>
 
-### 🤔기획 의도
+- 서비스 URL : https://pomodak.com
+- 플레이 스토어 : 비공개 테스트 심사중
 
-> ####
+### 프로젝트 소개
 
-<br>
+- a
+- b
+- c
+- d
 
-### 🎯서비스 대상
+  <br>
+
+### 팀원 구성
+
+<div align="center">
+
+|                                             **이창우** [📧](mailto:lcwoo3145@gmail.com)                                             |                                             **이지선** [📧](mailto:bhd1171@naver.com)                                             | **노혜지** [📧](mailto:shgpwl509@naver.com)                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [<img src="https://avatars.githubusercontent.com/u/100907484?v=4" height=150 width=150> <br/> @woo3145](https://github.com/woo3145) | [<img src="https://avatars.githubusercontent.com/u/149784847?v=4" height=150 width=150> <br/> @js1171](https://github.com/js1171) | [<img src="https://avatars.githubusercontent.com/u/86008693?v=4" height=150 width=150> <br/> @HyeJiRho](https://github.com/HyeJiRoh) |
+|                                                        프론트, 백엔드(Nest)                                                         |                                                          백엔드(Spring)                                                           | 백엔드(Spring)                                                                                                                       |
+
+</div>
 
 <br>
 
 ### 🎨 UI/UX
+
+[디자인 변화 과정](https://woo3145.com/blog/pomodak-dev-story-1) 포스팅
+
+### 🛠 Tech & Architecture
+
+#### 전체 구성
+
+![기술스택](./images/architecture.png)
+
+#### [FE](https://github.com/pomodak/pomodak)
+
+- a
+- b
+
+#### [BE(Nest)](https://github.com/pomodak/pomodak-nest)
+
+- a
+- b
+
+#### [BE(Spring)](https://github.com/pomodak/pomodak-spring)
+
+- a
+- b
 
 <br>
 
@@ -30,14 +68,7 @@
 
 ## 🔍프로젝트 정보
 
-.. readme 모음
-
-<br>
-
-### 🛠기술 스택
-
-기술 스택
-![기술스택](./images/architecture.png)
+.. readme 링크
 
 <br>
 
@@ -46,24 +77,6 @@
 ### 주요 구현 기능
 
 #### 페이지
-
-## 🤝팀 소개
-
-### 🙋‍♂️🙋‍♀️구성원 및 담당 역할
-
-#### 🛰BE
-
-| 이름                                                                      | 개발 내용                                 |
-| ------------------------------------------------------------------------- | ----------------------------------------- |
-| [👨🏻‍💻 이창우](https://github.com/woo3145) [📧](mailto:lcwoo3145@gmail.com)  | Nest - Timer Server<br /><br />           |
-| [👨🏻‍💻 이지선](https://github.com/js1171) [📧](mailto:bhd1171@naver.com)     | Spring Boot - Contents Server<br /><br /> |
-| [👩🏻‍💻 노혜지](https://github.com/HyeJiRoh) [📧](mailto:shgpwl509@naver.com) | Spring Boot - Contents Server<br /><br /> |
-
-#### 🌈FE
-
-| 이름                                                                     | 개발 내용                                |
-| ------------------------------------------------------------------------ | ---------------------------------------- |
-| [👨🏻‍💻 이창우](https://github.com/woo3145) [📧](mailto:lcwoo3145@gmail.com) | React, TypeScript, Socket.io<br /><br /> |
 
 ### ⚙팀 운영
 
