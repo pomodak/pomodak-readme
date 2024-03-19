@@ -1,7 +1,4 @@
-<h1 style="text-align: center;">🐥 뽀모닭: 뽀모도로 타이머</h1>
-
-<div style="display:flex; flex-flow: row wrap; justify-content:center; gap:6px;">
-</div>
+<h1 align= "center">🐥 뽀모닭: 뽀모도로 타이머</h1>
 
 <p align="center" width="100%">
 <img src="https://d2quahb2ygxiv.cloudfront.net/c6b6dc92b5b1ca2b81459.png" alt="main_1 img" width="30%"/>
