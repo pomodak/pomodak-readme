@@ -3,7 +3,7 @@
 <div style="display:flex; flex-flow: row wrap; justify-content:center; gap:6px;">
 </div>
 
-<p align="end" width="100%">
+<p align="center" width="100%">
 <img src="https://d2quahb2ygxiv.cloudfront.net/c6b6dc92b5b1ca2b81459.png" alt="main_1 img" width="30%"/>
 <img src="./images/1.png" alt="main_1 img" width="30%"/>
 <img src="https://d2quahb2ygxiv.cloudfront.net/6b6dc92b5b1ca2b81459a.png" alt="main_1 img" width="30%" />
