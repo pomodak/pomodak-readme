@@ -150,57 +150,33 @@
 <details>
 <summary>인증</summary>
 
-1. https 통신 구현
-   - **프리티어의 장점**을 살리기 위해 `nest`와 `spring`서버 각각 다른 계정의 `ec2`에서 배포
-   - 각 서버에 cerbot을 사용한 ssl 인증서 자동 발급을 구현하여 https 통신 구현
+<br/>
+
+[자세한 내용 + 플로우 차트](/docs/authentication.md)
+
+- 회원가입 (메일링)
+
+   - 이메일 입력 후, 메일로 전송된 인증 코드 입력
+![emailJoin](./images/auth/join-email.png)
+
+- 로그인 
+   - 상단 Email, PW 입력 후 로그인
+![emailLogin](./images/auth/login-email.png)
+
+- PW 찾기 (메일링)
+
+   - 이메일 입력 후, 메일로 전송된 인증 코드 입력
+   - 변경할 비밀 번호 입력
+
+![findPw](./images/auth/findpw.png)
 
 
-2. 사용자 식별
-   - `nest` 서버에 `JWT 기반`의 인증 시스템을 구축하고 `OAuth` 계정을 통합
-   - `jwt secretKey` 공유를 통해 각 서버의 가드에서 인증된 사용자를 식별할 수 있도록 구현
+- OAuth 회원가입, 로그인
 
+   - 각 서비스 oauth 제공자를 통해 로그인&가입
 
-3. 회원가입 / 로그인
-   - 방식 변경
-     - 기존 방식 : `로그인을 하지 않으면 리다이렉션을 통해 앱에 접근할 수 없는 방식`
-     - 변경 방식 : `기능 제한을 통한 로그인 유도 방식` (애드센스 심사를 위함)
+![oauth](./images/auth/login-oauth.png)
 
-   - 이메일 회원가입, 로그인
-      <details>
-      <summary>회원가입 (메일링)</summary>
-
-      - 이메일 입력 후, 메일로 전송된 인증 코드 입력
-
-        ![emailJoin](./images/auth/join-email.png)
-      </details>
-      <details>
-         <summary>로그인</summary>
-   
-        - 상단 Email, PW 입력 후 로그인
-   
-          ![emailLogin](./images/auth/login-email.png)
-      </details>
-      <details>
-         <summary>PW 찾기 (메일링)</summary>
-   
-        - 이메일 입력 후, 메일로 전송된 인증 코드 입력
-        - 변경할 비밀 번호 입력
-   
-          ![findPw](./images/auth/findpw.png)
-      </details>  
-
-   - OAuth 회원가입, 로그인
-       <details>
-          <summary>OAuth 로그인</summary>
-      
-       - 이메일 입력 후, 메일로 전송된 인증 코드 입력
-       - 변경할 비밀 번호 입력
-      
-         ![oauth](./images/auth/login-oauth.png)
-       </details>
-      <br><br>
-
-   
 </details>
 
 <details>
