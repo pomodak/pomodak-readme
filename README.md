@@ -160,15 +160,47 @@
    - `jwt secretKey` 공유를 통해 각 서버의 가드에서 인증된 사용자를 식별할 수 있도록 구현
 
 
-3. 로그인 방식 변경
-   - 기존 방식 : `로그인을 하지 않으면 리다이렉션을 통해 앱에 접근할 수 없는 방식`
-   - 변경 방식 : `기능 제한을 통한 로그인 유도 방식` (애드센스 심사를 위함)
+3. 회원가입 / 로그인
+   - 방식 변경
+     - 기존 방식 : `로그인을 하지 않으면 리다이렉션을 통해 앱에 접근할 수 없는 방식`
+     - 변경 방식 : `기능 제한을 통한 로그인 유도 방식` (애드센스 심사를 위함)
 
-- 이메일 회원가입(메일링)
-- 이메일 로그인
-- 패스워드 찾기(메일링)
-- OAuth 로그인
+   - 이메일 회원가입, 로그인
+      <details>
+      <summary>회원가입 (메일링)</summary>
 
+      - 이메일 입력 후, 메일로 전송된 인증 코드 입력
+
+        ![emailJoin](./images/join-email.png)
+      </details>
+      <details>
+         <summary>로그인</summary>
+   
+        - 상단 Email, PW 입력 후 로그인
+   
+          ![emailLogin](./images/login-email.png)
+      </details>
+      <details>
+         <summary>PW 찾기 (메일링)</summary>
+   
+        - 이메일 입력 후, 메일로 전송된 인증 코드 입력
+        - 변경할 비밀 번호 입력
+   
+          ![findPw](./images/findpw.png)
+      </details>  
+
+   - OAuth 회원가입, 로그인
+       <details>
+          <summary>OAuth 로그인</summary>
+      
+       - 이메일 입력 후, 메일로 전송된 인증 코드 입력
+       - 변경할 비밀 번호 입력
+      
+         ![oauth](./images/login-oauth.png)
+       </details>
+      <br><br>
+
+   
 </details>
 
 <details>
