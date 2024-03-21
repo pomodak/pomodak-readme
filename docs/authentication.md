@@ -24,7 +24,7 @@
 ##### 인증 플로우
 각 서버의 axios 인스턴스(`nestHttpRequest`, `springHttpRequest`)에서 expired를 확인하고 만료시 `Nest`에 리프레시를 진행하는 인터셉터 등록
 
-![auth](../images/flow-chart/auth-flow.png)
+![auth](../images/diagrams/auth-sequence.png)
 
 ##### OAuth 플로우
-![oauth](../images/flow-chart/oauth-flow.png)
+![oauth](../images/diagrams/oauth-sequence.png)

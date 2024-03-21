@@ -9,7 +9,7 @@
 <br>
 
 - 서비스 URL : https://pomodak.com
-- 플레이 스토어 : 비공개 테스트 심사중
+- 플레이 스토어 : 비공개 테스트 심사중(2024.03.21 ~)
 
 <br><br>
 
@@ -180,16 +180,19 @@
 </details>
 
 <details>
-<summary>타이머 모드</summary>
+<summary>타이머 & 푸시 알림</summary>
 
-1. 일반 모드 
-   - 0부터 시작하여, Give up 버튼을 누를 때 공부 시간을 기록
+<br/>
 
+[자세한 내용 + 플로우 차트](/docs/timer.md)
 
-2. 뽀모도로 모드
-   - 설정한 시간 부터 0까지 줄어 들고 0이 되었을 때 공부 시간 기록
-     - 앱이 포그라운드 상태면 인앱 진동 알림이 울림
-     - 백그라운드 상태면 fcm을 통해 예약된 푸시 알림이 발송
+- 일반 타이머
+
+![normal timer]()
+
+- 뽀모도로 타이머
+
+![pomodoro timer]()
 
 </details>
 
@@ -205,11 +208,6 @@
 
 <details>
 <summary>함께 공부하기</summary>
-
-</details>
-
-<details>
-<summary>푸시 알림</summary>
 
 </details>
 
