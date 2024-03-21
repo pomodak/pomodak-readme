@@ -2,7 +2,7 @@
 
 <p align="center" width="100%">
 <img src="https://d2quahb2ygxiv.cloudfront.net/c6b6dc92b5b1ca2b81459.png" alt="main_1 img" width="30%"/>
-<img src="./images/1.png" alt="main_1 img" width="30%"/>
+<img src="./images/screenshot/1.png" alt="main_1 img" width="30%"/>
 <img src="https://d2quahb2ygxiv.cloudfront.net/6b6dc92b5b1ca2b81459a.png" alt="main_1 img" width="30%" />
 </p>
 
@@ -171,14 +171,14 @@
 
       - 이메일 입력 후, 메일로 전송된 인증 코드 입력
 
-        ![emailJoin](./images/join-email.png)
+        ![emailJoin](./images/auth/join-email.png)
       </details>
       <details>
          <summary>로그인</summary>
    
         - 상단 Email, PW 입력 후 로그인
    
-          ![emailLogin](./images/login-email.png)
+          ![emailLogin](./images/auth/login-email.png)
       </details>
       <details>
          <summary>PW 찾기 (메일링)</summary>
@@ -186,7 +186,7 @@
         - 이메일 입력 후, 메일로 전송된 인증 코드 입력
         - 변경할 비밀 번호 입력
    
-          ![findPw](./images/findpw.png)
+          ![findPw](./images/auth/findpw.png)
       </details>  
 
    - OAuth 회원가입, 로그인
@@ -196,7 +196,7 @@
        - 이메일 입력 후, 메일로 전송된 인증 코드 입력
        - 변경할 비밀 번호 입력
       
-         ![oauth](./images/login-oauth.png)
+         ![oauth](./images/auth/login-oauth.png)
        </details>
       <br><br>
 
