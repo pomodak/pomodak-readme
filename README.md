@@ -180,13 +180,6 @@
 
 [자세한 내용 + 플로우 차트](/docs/timer.md)
 
-이벤트 루프를 통한 구현은 백그라운드에 갔을 때 cpu를 자주 할당받지 못하여 시간 오차가 많이 발생
-시작 시간을 기록 후 타이머 진행 로직을 시작 시간과의 차이를 통해 계산하도록 수정 후 백그라운드에서는 타이머 정지
-
-해당 방식은 포그라운드에서만 타이머 진행 사항과 종료 여부를 알 수 있기 때문에,  
-백그라운드로 전환될때 fcm 메세지 예약, 포그라운드로 전활될 때 fcm 메세지 취소 로직을 구현하여  
-사용자가 돌아와 시간을 기록할 수 있도록 함
-
 - 일반 타이머
   - 0부터 시작하여, Give up 버튼을 누를 때 공부 시간을 기록
 - 뽀모도로 타이머
@@ -210,23 +203,31 @@
 </details>
 
 <details>
-<summary>아이템 구매, 캐릭터 판매</summary>
+<summary>아이템 구매, 캐릭터 판매, 컨텐츠 관리</summary>
 
+<img src="/images/gif/구매_판매.gif" alt="shop" width="30%" />
+<img src="/images/gif/컨텐츠관리.gif" alt="admin menu" width="30%" />
 </details>
 
 <details>
-<summary>캐릭터/스트릭 팔레트 뽑기</summary>
+<summary>캐릭터/스트릭 뽑기</summary>
+<img src="/images/gif/뽑기.gif" alt="gacha character" width="30%" />
+<img src="/images/gif/팔레트.gif" alt="gacha palette" width="30%" />
 
 </details>
 
 <details>
 <summary>함께 공부하기</summary>
+<img src="/images/gif/함께공부하기.gif" alt="together study" width="30%" />
 
 </details>
 
 <details>
 <summary>캘린더/스트릭 통계</summary>
 
+<img src="/images/screenshot/통계1.png" alt="statistic 1" width="30%" />
+<img src="/images/screenshot/통계2.png" alt="statistic 2" width="30%" />
+<img src="/images/screenshot/통계3.png" alt="statistic 3" width="30%" />
 </details>
 
 #### 페이지
