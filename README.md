@@ -205,6 +205,12 @@
 <details>
 <summary>아이템 구매, 캐릭터 판매, 컨텐츠 관리</summary>
 
+<br>
+
+[자세한 내용](/docs/shop.md)
+
+<br>
+
 <img src="/images/gif/구매_판매.gif" alt="shop" width="30%" />
 <img src="/images/gif/컨텐츠관리.gif" alt="admin menu" width="30%" />
 </details>
