@@ -210,7 +210,14 @@
 </details>
 
 <details>
-<summary>캐릭터/스트릭 뽑기</summary>
+<summary>아이템 사용 (캐릭터 / 팔레트 / 포인트 뽑기)</summary>
+
+<br>
+
+[자세한 내용 + 플로우 차트](/docs/timer.md)
+
+<br>
+
 <img src="/images/gif/뽑기.gif" alt="gacha character" width="30%" />
 <img src="/images/gif/팔레트.gif" alt="gacha palette" width="30%" />
 
