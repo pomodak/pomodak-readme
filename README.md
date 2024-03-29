@@ -214,7 +214,7 @@
 
 <br>
 
-[자세한 내용 + 플로우 차트](/docs/timer.md)
+[자세한 내용 + 플로우 차트](/docs/useitem.md)
 
 <br>
 
