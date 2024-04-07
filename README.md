@@ -231,6 +231,9 @@
 
 <details>
 <summary>함께 공부하기</summary>
+
+[자세한 내용 + 플로우 차트](/docs/socket.md)
+
 <img src="/images/gif/함께공부하기.gif" alt="together study" width="30%" />
 
 </details>
